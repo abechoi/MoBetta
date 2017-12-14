@@ -4,10 +4,10 @@ module MoBettaEngine where
 -- CPSC-354-01
 
 import System.IO
-import qualified Data.HashMap as HM-- easy lookup and update of variables
+import qualified Data.HashMap as HM
 import Control.Monad.State
 import Control.Applicative
-import Data.Maybe (fromMaybe) -- using fromMaybe to simplify some code
+import Data.Maybe (fromMaybe)
 
 import MoBettaAST
 
