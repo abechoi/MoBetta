@@ -4,13 +4,13 @@ module Main where
 -- CPSC-354-01
 
 import System.Environment
-import System.IO -- needed for file handling
+import System.IO
 import Control.Monad.Trans.State.Lazy
 import Text.Megaparsec.Error
 
 
-import MoBettaParser -- construct abstract syntax trees from source code
-import MoBettaEngine -- construct computations from abstract syntax trees
+import MoBettaParser
+import MoBettaEngine
 
 main = do
     hSetBuffering stdout NoBuffering
